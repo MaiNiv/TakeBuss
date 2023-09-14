@@ -118,3 +118,31 @@ h2{
 .dia{
     font-size: 20px;
 }
+
+.rotas2_confirmar button{
+    background-color: rgb(35, 35, 129);
+    border-color: #ccc;
+    border-radius: 10px;
+    color: white;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil_rotas2 {
+  font-size: 50px;
+}
+
+.direct_rotas2{
+    font-size: 28px;
+    margin-top: 1.1rem;
+    margin-left: 1rem;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+}

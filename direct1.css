@@ -1,0 +1,19 @@
+body{
+    background-color: #c3cddd;
+    text-align: center;
+}
+
+ion-icon{
+    font-size: 40px;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+}
+
+.direct_centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

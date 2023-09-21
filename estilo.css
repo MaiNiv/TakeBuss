@@ -1,18 +1,7 @@
-.login { 
+.idex{
     background-color: #5b8bdf;
     text-align: center;
 }
-
-
-.bem {
-    text-align: center;
-}
-
-.inf {
-    text-align: center;
-    border-radius: 10px;
-}
-
 button {
     text-align: center;
     width: 90px;
@@ -22,69 +11,76 @@ button {
     border: rgb(15, 15, 133);
     border-radius: 8px;
 }
-.idex{
+/* css do index */
+.inicio{
+    background-color: #5b8bdf;
+}
+.inf{
+    text-align: center;
+}
+.ft{
+    text-align: center;
+}
+ion-icon {
+    font-size: 25px;
+    color: rgb(243, 246, 246);
+  }
+h2{
+    text-align: center;
+}
+/* css do inicio */
+
+.login { 
     background-color: #5b8bdf;
     text-align: center;
 }
-
-button {
-    border-radius: 10px;
+/* css do login */
+.take{
+background-color: #c3cddd;
+text-align: center;
 }
-
 .menu{ 
     background-color: #5b8bdf;
     text-align: center;
 }
-
-
-.inicio{ 
-    background-color: #5b8bdf;
-    text-align: center;
+h2{
+    font-size: 28px;
 }
 
+.dia{
+    font-size: 20px;
+}
+
+.botao{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer; 
+}
+ion-icon {
+    font-size: 30px;
+    color: black;
+    flex-direction: column;
+}
+/* css do menu */
 .rotas1{
     text-align: center;
-    background-color: #5b8bdf;
+    background-color: #c3cddd;
 
 }
-
 .usuario {
     font-size: 20px;
     display:flex;
     align-items: center;
     justify-content: center;
-   
-
 }
-
 .puto{
     margin: 0 0 0 0%;
 }
 
-
-
-.foto1{
+.foto{
     display:flex;
     align-items: center;
     justify-content: center;
-}
-
-.foto2{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.foto3{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.foto4{
-    display:flex;
-    align-items: center;
-    justify-content: center;    
 }
 
 input{
@@ -110,20 +106,13 @@ input{
 .perfil_rotas1 {
     font-size: 50px;
 }
-
-h2{
-    font-size: 28px;
-}
-
-.dia{
-    font-size: 20px;
-}
+/* css de rotas1 */
 
 .rotas2_confirmar button{
     background-color: rgb(35, 35, 129);
     border-color: #ccc;
     border-radius: 10px;
-    color: white;
+    color: white;  
 }
 
 .perfil{
@@ -144,24 +133,21 @@ h2{
 
 .topo {
     display: flex;
-    justify-content: center;
+    justify-content: center;   
 }
-body{
-    background-color: #8eb9f1;
-
-}
-ion-icon {
-    font-size: 64px;
-    color: blue;
-      
-  }
-.desgraca{
+/* css rotas2 */
+.bem {
     text-align: center;
+} 
+
+.button {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0 ;
 }
-.paradas{
-    font-display:flex;
-}
-  
-.perfil{
-display: flex;    
-}
+.servidor{
+    background-color: #5b8bdf;   
+}    
+/* css do servidor */
+

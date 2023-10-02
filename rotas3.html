@@ -1,44 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <title>TakeBuss</title>
 </head>
-<body>
-    <h3>Take buss</h3>
+<body class="direito">
+    <h3>TakeBuss</h3>
     <div class="perfil">
         <ion-icon name="person-circle-outline"></ion-icon>
         <p>Usuário1234</p>
-        <p>20221818uau</p>
     </div>
-    <div class="desgraca">Horários do dia</div>
-    <hr>
-    <div class="paradas">
-        <ion-icon name="bus-outline"></ion-icon>
-        <p>local de partida:casa</p>
-        <p>local de destino:do carai</p>
-        <p>8hrs------12:30   7hrs-----16:30</p>
-        <p>6hrs------13:39   6hrs------22:22</p>
-        <hr>
-        <ion-icon name="bus-outline"></ion-icon>
-        <p>local de partida:casa</p>
-        <p>local de destino:do carai</p>
-        <p>8hrs------12:30   7hrs-----16:30</p>
-        <p>9hrs------13:39   11hrs------22:22</p>
-        <hr>
-        <ion-icon name="bus-outline"></ion-icon>
-        <p>local de partida:casa</p>
-        <p>local de destino:do carai</p>
-        <p>10hrs------12:30   7hrs-----21:30</p>
-        <p>8hrs------13:39   9hrs------22:22</p>
-        <hr>
-        <ion-icon name="bus-outline"></ion-icon>
-        <p>local de partida:casa</p>
-        <p>local de destino:do carai</p>
-        <p>8hrs------12:30   12hrs-----19:30</p>
-        <p>6hrs------13:39   6hrs------12:12</p>
+    <span class="paragrafo"> <h3>Rotas do dia</h3></span>
+    <div class="linha"> <hr> </div>
+    <div class="rotas">
+        <div class="paradas"><ion-icon name="bus-outline" class="onibus-icon"></ion-icon>
+            <span class="alinhar">
+            <p>Local de partida: Pedrinhas</p>
+            <p>Local de destino: Centro</p>
+            </span>
+        </div>
+        <p>8h às 12:30h - 7h às 16:30h</p>
+        <p>6h às 6:20h - 9h às 9:30h</p>
+        <div class="linha"> <hr> </div>
+        <div class="paradas"><ion-icon name="bus-outline" class="onibus-icon"></ion-icon>
+            <span class="alinhar">
+            <p>Local de partida: Junco</p>
+            <p>Local de destino: Pantanal</p>
+            </span>
+        </div>
+        <p>7h às 7:40h - 10:20h às 10:40h</p>
+        <p>9:50h às 10:10h -  11h às 11:30h</p>
+        <div class="linha"> <hr> </div>
+        <div class="paradas"><ion-icon name="bus-outline" class="onibus-icon"></ion-icon>
+            <span class="alinhar">
+        <p>Local de partida: Bomba</p>
+        <p>Local de destino: São José</p>
+            </span>
+        </div>
+        <p>18h às 18:30h - 14:15h às 14:50h</p>
+        <p>18:50h às 19:30h - 22h às 22:20h</p>
     </div>
 </body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

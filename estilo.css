@@ -1,10 +1,14 @@
+/* css geral dos body's */
 body {
     font-family: Arial, sans-serif;
-    background-color: #5b8bdf;
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 0;
+    background-color: #c3cddd;
+    /* max-width: 780px;(por jesiel) */
+    /* margin: 0 auto;(por jesiel) */
+    /* padding: 0; (por jesiel)*/
 }
+/* css geral dos body's */
+
+/* botões em geral */
 button {
     text-align: center;
     width: 90px;
@@ -14,43 +18,60 @@ button {
     border: rgb(15, 15, 133);
     border-radius: 8px;
 }
-/* css do index */
+/* bootões em geral */
 
-.inf{
-    text-align: center;
+/* css do direct */
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
 }
-.ft{
-    text-align: center;
+.direct_alinhar {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
 }
-ion-icon {
-    font-size: 25px;
-    color: rgb(243, 246, 246);
-  }
-h2{
-    text-align: center;
-}
-/* css do inicio */
-
-.login { 
-    background-color: #5b8bdf;
-    text-align: center;
-}
-/* css do login */
-
-h2{
-    font-size: 28px;
-}
-
-.dia{
-    font-size: 20px;
-}
-
-ion-icon {
-    font-size: 30px;
-    color: black;
+.alinhar{
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* css do direct */
+
+/* css do menu */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu input {
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.botao button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
 }
 /* css do menu */
+<<<<<<< HEAD
 .direct_icone {
     display: flex;
 }
@@ -71,6 +92,10 @@ ion-icon {
    border: rgb(15, 15, 133);
 }
 
+=======
+
+/* css rotas1 */
+>>>>>>> a52760e6b8b81321b6883d1084165289c3144b67
 .rotas1{
     text-align: center;
     background-color: #c3cddd;
@@ -117,6 +142,7 @@ input{
 }
 /* css de rotas1 */
 
+/* css rotas2 */
 .rotas2_confirmar button{
     background-color: rgb(35, 35, 129);
     border-color: #ccc;
@@ -145,6 +171,8 @@ input{
     justify-content: center;   
 }
 /* css rotas2 */
+
+/* css do servidor */
 .bem {
     text-align: center;
 } 
@@ -157,31 +185,10 @@ input{
 }
 .servidor{
     background-color: #5b8bdf;   
-}    
+}
 /* css do servidor */
-.body{
-    background-color: #c3cddd;
-    text-align: center;
-}
 
-ion-icon{
-    font-size: 40px;
-}
-
-.icone {
-    display: flex;
-    justify-content: center;
-}
-
-.direct_centro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* chat do servidor com o cliente */
-
-
-   
+/* chat do servidor com o cliente */   
 .chat-container {
     max-width: 400px;
     margin: 0 auto;
@@ -242,15 +249,13 @@ ion-icon{
     padding: 5px 10px;
     cursor: pointer;
 }
+/* chat do servidor com o cliente */  
+
 /* css das rotas 3 */
 .direito{
     background-color:  #7fabf7;
 }
 
-.perfil{
-    display: flex;
-    justify-content: left;
-}
 .paragrafo{
 text-align: center;
 }
@@ -269,3 +274,4 @@ text-align: center;
     margin-top: 1.1rem;
     font-size: 50px;
 }
+/* css rotas3 */

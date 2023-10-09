@@ -51,6 +51,26 @@ ion-icon {
     flex-direction: column;
 }
 /* css do menu */
+.direct_icone {
+    display: flex;
+}
+
+.texto {
+  font-size: 10%;
+}
+
+.casa {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+
+.botao {
+   height: 30px;
+   border: rgb(15, 15, 133);
+}
+
 .rotas1{
     text-align: center;
     background-color: #c3cddd;

@@ -1,10 +1,14 @@
+/* css geral dos body's */
 body {
     font-family: Arial, sans-serif;
-    background-color: #5b8bdf;
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 0;
+    background-color: #c3cddd;
+    /* max-width: 780px;(por jesiel) */
+    /* margin: 0 auto;(por jesiel) */
+    /* padding: 0; (por jesiel)*/
 }
+/* css geral dos body's */
+
+/* botões em geral */
 button {
     text-align: center;
     width: 90px;
@@ -14,28 +18,33 @@ button {
     border: rgb(15, 15, 133);
     border-radius: 8px;
 }
-/* css do index */
+/* bootões em geral */
 
-.inf{
-    text-align: center;
+/* css do direct */
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
 }
-.ft{
-    text-align: center;
+.direct_alinhar {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
 }
+.alinhar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* css do direct */
+
 ion-icon {
     font-size: 25px;
     color: rgb(243, 246, 246);
-  }
-h2{
-    text-align: center;
 }
-/* css do inicio */
-
-.login { 
-    background-color: #5b8bdf;
-    text-align: center;
-}
-/* css do login */
 
 h2{
     font-size: 28px;
@@ -227,10 +236,6 @@ ion-icon{
     background-color:  #7fabf7;
 }
 
-.perfil{
-    display: flex;
-    justify-content: left;
-}
 .paragrafo{
 text-align: center;
 }

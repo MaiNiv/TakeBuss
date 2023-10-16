@@ -49,7 +49,7 @@ button {
 
 .menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -59,20 +59,28 @@ button {
     padding: 5px;
     margin: 5px;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .botao {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.botao_di{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 5px;
+
 }
 
 .botao button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 18px;
+   margin: 5px;
+   height: 47px;
+
 }
 /* css do menu */
 
@@ -255,3 +263,35 @@ text-align: center;
     font-size: 50px;
 }
 /* css rotas3 */
+
+/* css rotas_passageiro */
+.prd-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.1rem;
+    font-size: 50px;
+    color: #2c64c6;
+    margin-left: 40%;
+}
+.parte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.casa{
+    font-size: 30px;
+    color: white;
+    margin-left: 7rem;
+}
+
+.reto-teste {
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+}
+
+
+
+
+/* css rotas_passageiro */

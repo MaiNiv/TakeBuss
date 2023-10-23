@@ -63,25 +63,17 @@ button {
     align-items: center;
 }
 
-.botao {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.botao button{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: auto;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    
 }
 
-.botao_di{
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 5px;
-
-}
-
-.botao button {
-   margin: 5px;
-   height: 47px;
-
-}
 /* css do menu */
 
 /* css rotas1 */
@@ -290,8 +282,22 @@ text-align: center;
     justify-content: center;
     margin-left: 9rem;
 }
-
-
-
-
 /* css rotas_passageiro */
+
+/* css horários */
+.horarios{
+  width: 260px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 13px;
+  margin: 16px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.hora{
+    display: flex;
+}
+.fota io-icon{
+    font-size: 50px;
+}
+/* css horàrios */

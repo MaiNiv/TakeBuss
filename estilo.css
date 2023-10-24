@@ -300,6 +300,7 @@ text-align: center;
 /*css horários  */
 .hora{
     display: flex;
+    align-items: center;
 }
 .horarios{
     width: 177px;
@@ -307,6 +308,14 @@ text-align: center;
     padding: 16px;
     margin: 20px;
 }
+.box{
+    align-items: center;
+    display: flex;
+}
+.box p{
+    left: 50%;
+}
+
 /*css horários */
 
 /* css paradas-passageiro */
@@ -329,6 +338,7 @@ text-align: center;
     border-style: ridge;
 }
 .muto{
-    background-color:#c3cddd ;
+    background-color: #c3cddd;
+    
 }
 /* css paradas-passageiro */

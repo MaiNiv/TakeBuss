@@ -96,6 +96,7 @@ button {
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 input{
@@ -108,15 +109,20 @@ input{
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1.1rem;
-    margin-left: 1rem;
+    margin-top: 1.4rem;
+}
+
+.margem{
+    margin-right: 0.4rem;
 }
 
 .direct_rotas1 {
    font-size: 30px;
    margin-top: 0.0rem;
+   font-size: 25px;
    margin-left: 1rem;
 }
+
 
 .perfil_rotas1 {
     font-size: 50px;
@@ -293,6 +299,7 @@ text-align: center;
 }
 .rota4 {
     text-align: center;
+    background-color: #c3cddd;
 }
 
 /* css rotas_passageiro */

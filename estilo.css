@@ -349,38 +349,6 @@ text-align: center;
 }
 /* css paradas-passageiro */
 
-/* css localização em tempo real */
-.luta{
-    display: flex;
-    align-items: first baseline;
-    justify-content: center;
-}
-.casinha{
-    margin: 25px;
-    font-size: 25px;
-    color: white;
-}
-.setinha{
-    display: flex;
-   align-items: baseline;
-    justify-content: center;
-    margin-left: -85px;
-}
-.seta{
-    margin: 17px;
-    margin-bottom: 50px;
-    font-size: 25px;
-    color:white
-}
-.conter{
-    text-align: center;
-}
-.fmapa{
-    background-color:#c3cddd ;
-}
-.ian{
-/* css paradas */
-
 /* css rotas3_passageiros */
 .rotas2_passageiro {
     background-color: #c3cddd;
@@ -428,3 +396,51 @@ text-align: center;
     justify-content: center;
 }
 /* css rotas3_passageiros */
+
+/* css localização em tempo real */
+.luta{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
+.casinha{
+    margin: 25px;
+    font-size: 25px;
+    color: white;
+}
+.setinha{
+    display: flex;
+   align-items: baseline;
+    justify-content: center;
+    margin-left: -85px;
+}
+.seta{
+    margin: 17px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color:white
+}
+.conter{
+    text-align: center;
+}
+.fmapa{
+    background-color:#c3cddd ;
+}
+.ian{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+.gabriel{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #0821e2;
+    display: flex;
+    justify-content: center;
+}

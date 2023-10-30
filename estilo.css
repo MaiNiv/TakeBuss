@@ -444,9 +444,20 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
-.reto{
-    display: flex;
-    justify-content: space-around;
-    margin: -1rem;  
-}   
+/* css localização em tempo real */
 
+/* css confirmação_solicitação */
+.meio{
+    background-color: #c3cddd;
+    text-align: center;
+}
+
+.icone_voltar{
+    font-size: 30px;
+    color: white;
+    margin-top: -4px;
+    padding-left: 375px;
+    justify-content: center;
+}
+
+/* css confirmação_solicitação */

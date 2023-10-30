@@ -24,23 +24,54 @@ button {
 /* bootões em geral */
 
 /* css do direct */
+.fazendo{
+display: flex;
+justify-content: right;
+}
+.cursor{
+    font-size: 28px;
+}
 .perfil {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
     margin-left: 5px;
     font-size: 18px;
 }
 .direct_alinhar {
     display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+
 }
 .alinhar{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.conversante{
+    display: flex;
+    margin-right: 7rem;
+    margin-bottom: -2rem; 
+}
+.di{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+.rec{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #0821e2;
+    display: flex;
     justify-content: center;
 }
 /* css do direct */
@@ -304,24 +335,73 @@ text-align: center;
 /* css rotas2_passageiro */
 
 /*css horários  */
-.hora{
+.contenho{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+   
+}
+.ho{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #0821e2;
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+.rar{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color:cyan;
+    display: flex;
+    justify-content: center;
+}
+.nucleo{
+    display: flex;
+}
+.home{
+    margin-left: 50rem;
+    font-size: 35px;
+    color:white;
 }
 .horarios{
-    width: 177px;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 16px;
+    background-color: #c3cddd;
+}
+.tabela{
+    width: 137px;
+    border: 2px solid black;
+    padding: 25px;
     margin: 20px;
+    text-align: center ;
 }
-.box{
-    align-items: center;
+.fechar{
     display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
-.box p{
-    left: 50%;
+   
+.aquilo{
+    
+    display: flex;
+    justify-items: center;
+    padding: 15px;
+    justify-content: center;
 }
 
+.aquilo p {
+    margin: 15px;
+}
+.cerol{
+    font-size: 35px;
+    color: blue;
+}
+.praq{
+    font-size: 35px;
+    
+}
 /*css horários */
 
 /* css paradas */
@@ -444,3 +524,5 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
+/*css localização em tempo real  */
+

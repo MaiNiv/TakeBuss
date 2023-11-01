@@ -24,23 +24,54 @@ button {
 /* bootões em geral */
 
 /* css do direct */
+.fazendo{
+display: flex;
+justify-content: right;
+}
+.cursor{
+    font-size: 28px;
+}
 .perfil {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
     margin-left: 5px;
     font-size: 18px;
 }
 .direct_alinhar {
     display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+
 }
 .alinhar{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.conversante{
+    display: flex;
+    margin-right: 7rem;
+    margin-bottom: -2rem; 
+}
+.di{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+.rec{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #0821e2;
+    display: flex;
     justify-content: center;
 }
 /* css do direct */
@@ -67,13 +98,10 @@ button {
     text-align: center;
     width: 94px;
     height: 47px;
-    color: white;
-    background-color: rgb(15, 15, 133);
     border: rgb(15, 15, 133);
     border-radius: 8px;
     margin: 2px;
 }
-
 /* css do menu */
 
 /* css rotas1_colaborador */
@@ -307,24 +335,73 @@ text-align: center;
 /* css rotas2_passageiro */
 
 /*css horários  */
-.hora{
+.contenho{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+   
+}
+.ho{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #0821e2;
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+.rar{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color:cyan;
+    display: flex;
+    justify-content: center;
+}
+.nucleo{
+    display: flex;
+}
+.home{
+    margin-left: 50rem;
+    font-size: 35px;
+    color:white;
 }
 .horarios{
-    width: 177px;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 16px;
+    background-color: #c3cddd;
+}
+.tabela{
+    width: 137px;
+    border: 2px solid black;
+    padding: 25px;
     margin: 20px;
+    text-align: center ;
 }
-.box{
-    align-items: center;
+.fechar{
     display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
-.box p{
-    left: 50%;
+   
+.aquilo{
+    
+    display: flex;
+    justify-items: center;
+    padding: 15px;
+    justify-content: center;
 }
 
+.aquilo p {
+    margin: 15px;
+}
+.cerol{
+    font-size: 35px;
+    color: blue;
+}
+.praq{
+    font-size: 35px;
+    
+}
 /*css horários */
 
 /* css paradas */
@@ -350,7 +427,7 @@ text-align: center;
     background-color: #c3cddd;
     
 }
-/* css paradas */
+/* css paradas-passageiro */
 
 /* css rotas3_passageiros */
 .rotas2_passageiro {
@@ -360,7 +437,7 @@ text-align: center;
 
 .voltar_icone {
     font-size: 30px;
-    color: white;
+    color: rgb(3, 3, 3);
     margin-top: 10px;
     padding-bottom: -20px;
 }
@@ -380,9 +457,6 @@ text-align: center;
     margin-left: 20%;
     margin-bottom: 20px;
 }
-
-
-
 .baixoEscuro {
     border-style: solid;
     border-top: none;
@@ -392,17 +466,83 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
-
 .baixoClaro {
     border-style: solid;
     border-top: none;
     border-right: none;
     border-left: none;
+    border-color:cyan;
+    display: flex;
+    justify-content: center;
+}
+/* css rotas3_passageiros */
+
+/* css localização em tempo real */
+.luta{
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
+.casinha{
+    margin: 25px;
+    font-size: 25px;
+    color: white;
+}
+.setinha{
+    display: flex;
+   align-items: baseline;
+    justify-content: center;
+    margin-left: -85px;
+}
+.seta{
+    margin: 17px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color:white
+}
+.conter{
+    text-align: center;
+}
+.fmapa{
+    background-color:#c3cddd ;
+}
+.ian{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     border-color: cyan;
     display: flex;
     justify-content: center;
 }
+.gabriel{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #0821e2;
+    display: flex;
+    justify-content: center;
+}
+/* css localização em tempo real */
 
+/* css confirmação_solicitação */
+.meio{
+    background-color: #c3cddd;
+    text-align: center;
+}
+
+.icone_voltar{
+    font-size: 30px;
+    color: white;
+    margin-top: -4px;
+    padding-left: 375px;
+    justify-content: center;
+}
+
+/* css confirmação_solicitação */
+
+<<<<<<< HEAD
 /* css rotas3_passageiros */
 
 /* css tela plus */
@@ -412,10 +552,27 @@ text-align: center;
 }
 
 .lista{
+=======
+/* css rotas_do_momento */
+.beijinho{
+    background-color: #c3cddd;
+    text-align: center;
+
+}
+.azul{
+    margin-top: 1.1rem;
+    font-size: 50px;
+    color: #2c64c6;
+    margin-right: 40%;
+}
+
+.usuario_rota_momento {
+>>>>>>> 09d031d0d611940249fe05f00f802fc258055c16
     display: flex;
     justify-content: center;
 }
 
+<<<<<<< HEAD
 ul{
     list-style: none;
 }
@@ -493,3 +650,10 @@ ul{
     margin-bottom: 1.5%;
 }
 /* css tela plus */
+=======
+.icone_user {
+    font-size: 400%;
+}
+
+/* css rotas_do_momento */
+>>>>>>> 09d031d0d611940249fe05f00f802fc258055c16

@@ -79,29 +79,98 @@ justify-content: right;
 /* css do menu */
 
 .menu {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin-bottom: 20px;
+    background-color: #c3cddd;
 }
-
-.menu input {
-    font-size: 18px;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
+.divBusca{
+    background-color:#ffffff;
+    border: solid 1px;
+    border-color: #0077f7;
+    border-radius:15px;
+    width:300px;
+    box-shadow: rgb(34, 121, 241) 0.3em 0.3em 0.2em;
     display: flex;
     align-items: center;
+    justify-content: center;
+  } 
+  .txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+  }
+.itinho{
+    display: flex;
+    align-items: first baseline;   
+}
+.navinha{
+    font-size: 20px;
+    margin: 1rem;
+    margin-left: 57rem;
+}
+.caneta{
+    text-align: center;
+    justify-content: center;
+}
+.mexe{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.dois_mlk{
+    display:flex;
+    align-items:first baseline;
+    margin-bottom: 2px;
+    justify-content: space-evenly;
+    margin: 0 43%;
+}
+.check{
+    color: #007bff;
+    font-size: 26px;
 }
 
-.botao button{
-    text-align: center;
-    width: 94px;
-    height: 47px;
-    border: rgb(15, 15, 133);
-    border-radius: 8px;
-    margin: 2px;
+.desce_deslizando {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:  42%;
 }
+
+.separa {
+    margin: 2%;
+}
+.menuzin{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 1%;
+}
+
+.testando {
+    display: flex;
+    flex-direction: column;
+}
+
+.testando p {
+    margin-top: -14%;
+    margin-left: 15%;
+    margin-right: -22%;
+}
+
+.testando ion-icon {
+    font-size: 200%;
+}
+
 /* css do menu */
 
 /* css rotas1_colaborador */
@@ -384,11 +453,12 @@ text-align: center;
 }
    
 .aquilo{
-    
     display: flex;
-    justify-items: center;
-    padding: 15px;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: -1%;
+    margin-top: -2%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 .aquilo p {
@@ -402,6 +472,12 @@ text-align: center;
     font-size: 35px;
     
 }
+.esquerda{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+
 /*css horários */
 
 /* css paradas */

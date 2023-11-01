@@ -542,19 +542,13 @@ text-align: center;
 
 /* css confirmação_solicitação */
 
-<<<<<<< HEAD
+
 /* css rotas3_passageiros */
 
-/* css tela plus */
-.plus{
-    background-color: #c3cddd;
-    text-align: center;
-}
 
-.lista{
-=======
+
 /* css rotas_do_momento */
-.beijinho{
+.beijinho {
     background-color: #c3cddd;
     text-align: center;
 
@@ -567,12 +561,18 @@ text-align: center;
 }
 
 .usuario_rota_momento {
->>>>>>> 09d031d0d611940249fe05f00f802fc258055c16
     display: flex;
     justify-content: center;
 }
 
-<<<<<<< HEAD
+
+ /*css plus */
+
+.plus{
+    background-color: #c3cddd;
+    text-align: center;
+}
+
 ul{
     list-style: none;
 }
@@ -650,10 +650,8 @@ ul{
     margin-bottom: 1.5%;
 }
 /* css tela plus */
-=======
 .icone_user {
     font-size: 400%;
 }
 
 /* css rotas_do_momento */
->>>>>>> 09d031d0d611940249fe05f00f802fc258055c16

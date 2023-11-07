@@ -908,3 +908,93 @@ ul{
 }
 
 /* css rotas_do_momento */
+
+.plus2{
+    background-color: #c3cddd;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.lista li:before{
+    content: '\2022';
+    margin: 0 2px;
+    color: #0821e2;
+}
+
+.caixageral { 
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    border: 2px solid rgb(14, 47, 208);
+    padding: 16px;
+    width: 10em;
+}
+
+.cor button {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: #686db8;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.tttt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nivea{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #0821e2;
+    display: flex;
+    justify-content: center;
+}
+
+.maria{
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+.baby{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.subir {
+    margin-top: -0.5%;
+    margin-bottom: 1.5%;
+}
+
+.casa_plus2{
+    margin-left: 4rem;
+    margin-right: -7rem;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 30px;
+}

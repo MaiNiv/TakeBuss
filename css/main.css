@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;500;700&display=swap');
+
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header h1{
+    border-bottom: 5px solid #0821e2;
+    width: fit-content;
+}
+
+header h1 span{
+    border-bottom: 5px solid cyan;
+}
+
+nav{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    align-items: ce;
+}
+
+nav a{
+    color: #0821e2;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav .login{
+    background-color: #0821e2;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.titulo-pagina{
+    text-align: center;
+}
+
+.rotas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid #0077f7;
+}
+
+.rotas .onibus-icon{
+    color: #007bff;
+    font-size: 5rem;
+}

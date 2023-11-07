@@ -463,7 +463,8 @@ color:white;
 .casa{
     font-size: 25px;
     color: white;
-    margin-left: 7rem;
+    margin-left: 4rem;
+    margin-right: -4rem;
 }
 
 .reto-teste {
@@ -471,7 +472,14 @@ color:white;
     justify-content: center;
     margin-left: 9rem;
 }
-/*css rotas1_passageiro */
+
+.começo{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+/*css 1_passageiro */
 
 /* css rotas2_passageiro */
 
@@ -486,6 +494,7 @@ text-align: center;
     text-align: center;
     background-color: #c3cddd;
 }
+
 
 /* css rotas2_passageiro */
 

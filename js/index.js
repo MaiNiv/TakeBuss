@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const emailInput = document.querySelector('.input1[type="email"]');
       const passwordInput = document.querySelector('.input1[type="password"]');
       const email = emailInput.value;
-      const password = passwordInput.value;
+      const password = passwordInput.value;  
   
       const chamada = await fetch(URL);
       if (chamada.status === 200) {
@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
           (usuario) => usuario.email === email && usuario.senha === password
         );
         if (foundUser) {
-          form.action = "menuP.html";
+          form.action = "index.html";
           form.submit();
         } else {
-          alert('Credenciais inválidas. Tente novamente.');
+          alert('Usuário inválido. Tente novamente.');
         }
       } else {
         // Tratar erro

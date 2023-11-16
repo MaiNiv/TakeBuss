@@ -2,10 +2,10 @@ const URL = 'http://localhost:3000/usuarios/';
 const campoNome = document.querySelector('#nome');
 const campoEmail = document.querySelector('#email');
 const campoSenha = document.querySelector('#senha');
-const btnSalvar = document.querySelector('#salvar');
+const btnEntrar = document.querySelector('#entrar');
 const mensagem = document.querySelector('#mensagem');
 
-btnSalvar.onclick = async () => {
+btnEntrar.onclick = async () => {
   const nome = campoNome.value;
   const email = campoEmail.value;
   const senha = campoSenha.value;

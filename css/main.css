@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+header h2 {
+    border-bottom: 2px solid #0821e2;
+    width: fit-content;
+}
+
+header h2 span {
+    border-bottom: 2px solid cyan;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3cddd;
+    text-align: center;
+    justify-content: center;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+input {
+    width: 30%;
+    padding: 2px;
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: rgb(3, 67, 163);
+}
+
+button {
+    background-color: #0300ce;
+    color: aliceblue;
+    border-radius: 25px;
+    border: none;
+    width: 13%;
+    padding: 1%;
+
+}
+.icone_geral{
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media (max-width: 480px) {
+    body {
+         width: 90%;
+     }
+    } */

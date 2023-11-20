@@ -34,7 +34,10 @@ button {
 
 .clientes_nome {
     font-size: 23px;
+    margin-left: 23rem;
+    margin-top: -54px;
 }
+
 
 .usuário_perfil {
     display: flex;
@@ -43,13 +46,19 @@ button {
     justify-items: center;
     margin-left: 5px;
     font-size: 18px;
-    margin-left: 39rem;
+    margin-left: 20rem;
 }
 
 .inicio_cabeçalho {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 33rem;
+}
+
+.chat{
+    margin-top: 5rem;
+    margin-right: -7rem;
 }
 
 .usuário_nome {
@@ -1078,3 +1087,18 @@ ul {
     color: #fff;
     font-size: 30px;
 }
+
+/*css do chat*/
+.msg-azul-claro{
+    background-color: #4e57a4;
+    color: #fff;
+    text-align: left;
+    margin-inline-start: 70rem;
+    margin-top: 0rem;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+
+/*css do chat*/

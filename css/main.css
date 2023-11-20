@@ -9,23 +9,23 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
-header h1{
-    border-bottom: 5px solid #0821e2;
-    width: fit-content;
+header h2{
+    border-bottom: 2px solid #0821e2;
+    width: fit-content;  
 }
 
-header h1 span{
-    border-bottom: 5px solid cyan;
+header h2 span{
+    border-bottom: 2px solid cyan;   
 }
 
 nav{
     display: flex;
     gap: 1rem;
     font-size: 1.5rem;
-    align-items: ce;
+    align-items: center;
 }
 
 nav a{
@@ -59,4 +59,7 @@ nav .login{
 .rotas .onibus-icon{
     color: #007bff;
     font-size: 5rem;
+}
+.direct_rotas1{
+    color: aliceblue;
 }

@@ -1,19 +1,19 @@
+/* novo css */
+
+/* css index */
 header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
 }
-
 header h2 {
     border-bottom: 2px solid #0821e2;
     width: fit-content;
 }
-
 header h2 span {
     border-bottom: 2px solid cyan;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: #c3cddd;
@@ -23,7 +23,6 @@ body {
     margin: 0 auto;
     padding: 0;
 }
-
 input {
     width: 30%;
     padding: 2px;
@@ -31,7 +30,6 @@ input {
     border-radius: 20px;
     border-color: rgb(3, 67, 163);
 }
-
 button {
     background-color: #0300ce;
     color: aliceblue;
@@ -39,15 +37,114 @@ button {
     border: none;
     width: 13%;
     padding: 1%;
-
 }
-.icone_geral{
+.icone_geral {
     color: black;
     font-size: 2rem;
 }
+/* css index */
 
-/* @media (max-width: 480px) {
-    body {
-         width: 90%;
-     }
-    } */
+/* css checking */
+.body_menu {
+    background-color: #c3cddd;
+}
+
+.campo_de_busca {
+    background-color: #ffffff;
+    border: solid 1px;
+    border-color: #0077f7;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: rgb(34, 121, 241) 0.3em 0.3em 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 0;
+}
+
+.takebuss_nome {
+    display: flex;
+    align-items: first baseline;
+}
+
+.ion-icon-direct {
+    font-size: 25px;
+    margin: 1rem;
+    margin-left: 57rem;
+}
+
+.centralizacao {
+    text-align: center;
+    justify-content: center;
+}
+
+.mexe {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.link_hor_rot {
+   
+    
+    margin-bottom: 2px;
+
+    margin: auto;
+    
+}
+
+.check {
+    color: #007bff;
+    font-size: 25px;
+}
+
+.link_par_loc_sol {
+    width: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+.separa {
+    margin: 2%;
+}
+
+.adicionar_tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.testando {
+    display: flex;
+    flex-direction: column;
+}
+
+.testando p {
+    margin-top: -14%;
+    margin-left: 15%;
+    margin-right: -22%;
+}
+
+.testando ion-icon {
+    font-size: 200%;
+}
+/* css checking */

@@ -317,48 +317,9 @@ input {
 
 /* css rotas2_colaborador */
 
-/* css do login_colaborador */
-.bem {
-    text-align: center;
-}
 
-.h2_takebuss {
-    display: flex;
-    justify-content: center;
-}
 
-.take {
-    border-style: solid;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-color: #0821e2;
-    display: flex;
-    justify-content: center;
-}
 
-.buss {
-    border-style: solid;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-color: cyan;
-    display: flex;
-    justify-content: center;
-}
-
-.button {
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 0 0;
-}
-
-.servidor {
-    background-color: #5b8bdf;
-}
-
-/* css do login_colaborador */
 
 /* chat do servidor com o cliente */
 .chat-container {

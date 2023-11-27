@@ -1,5 +1,6 @@
 /* novo css */
 
+/* padrões */
 /* css index */
 header {
     display: flex;
@@ -7,13 +8,16 @@ header {
     flex-wrap: wrap;
     text-align: center;
 }
+
 header h2 {
     border-bottom: 2px solid #0821e2;
     width: fit-content;
 }
+
 header h2 span {
     border-bottom: 2px solid cyan;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #c3cddd;
@@ -23,6 +27,7 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+
 input {
     width: 30%;
     padding: 2px;
@@ -30,6 +35,7 @@ input {
     border-radius: 20px;
     border-color: rgb(3, 67, 163);
 }
+
 button {
     background-color: #0300ce;
     color: aliceblue;
@@ -38,17 +44,16 @@ button {
     width: 13%;
     padding: 1%;
 }
+
 .icone_geral {
     color: black;
     font-size: 2rem;
 }
+
 /* css index */
+/* padrões */
 
 /* css checking */
-.body_menu {
-    background-color: #c3cddd;
-}
-
 .campo_de_busca {
     background-color: #ffffff;
     border: solid 1px;
@@ -76,11 +81,6 @@ button {
     outline: 0;
 }
 
-.takebuss_nome {
-    display: flex;
-    align-items: first baseline;
-}
-
 .ion-icon-direct {
     font-size: 25px;
     margin: 1rem;
@@ -101,12 +101,11 @@ button {
 }
 
 .link_hor_rot {
-   
-    
+    display: flex;
+    align-items: first baseline;
     margin-bottom: 2px;
-
-    margin: auto;
-    
+    justify-content: space-evenly;
+    margin: 2px 35%;
 }
 
 .check {
@@ -115,11 +114,11 @@ button {
 }
 
 .link_par_loc_sol {
-    width: 36rem;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 6%;
+    margin-left: 42%;
 }
 
 .separa {
@@ -147,4 +146,16 @@ button {
 .testando ion-icon {
     font-size: 200%;
 }
+
 /* css checking */
+
+/* css login colaborador */
+.bem {
+    text-align: center;
+}
+
+.servidor {
+    background-color: #5b8bdf;
+}
+
+/* css login colaborador */

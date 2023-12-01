@@ -2,6 +2,17 @@
 
 /* padrões */
 /* css index */
+@media(max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0; 
+        max-width: 780px;  
+    }
+    header{
+        padding: 1em;
+    }
+    /* Estilos para telas menores que 768px */
+}
 header {
     display: flex;
     justify-content: space-between;

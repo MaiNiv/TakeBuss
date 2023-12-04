@@ -1060,6 +1060,12 @@ ul {
     padding: 5px 10px;
     margin-bottom: 10px;
 }
+.chat-header{
+    display: flex;
+    margin-left: 5rem;
+}
 
-
+.icone_arrow{
+    margin-left: -3rem;
+}
 /*css do chat*/
